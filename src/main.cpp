@@ -204,7 +204,7 @@ class $modify(MenuLayer) {
 			Notification::create("CS: Downloading index...", CCSprite::createWithSpriteFrameName("GJ_timeIcon_001.png"))->show();
 			Mod::get()->setSavedValue<bool>("CSINDEXDOWNLOADING", true);
 		});
-		web::WebRequest().get("https://github.com/clicksounds/clicks/archive/refs/heads/main.zip").listen([=](auto res) {
+		web::WebRequest().get("https://github.com/justjaxkeryz/clicks/archive/refs/heads/main.zip").listen([=](auto res) {
 			if (res->string().unwrapOr("failed") == "failed") {
                 Loader::get()->queueInMainThread([=] {
                     Notification::create("CS: Download failed.", CCSprite::createWithSpriteFrameName("GJ_deleteIcon_001.png"))->show();
