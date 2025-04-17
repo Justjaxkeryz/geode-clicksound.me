@@ -2,7 +2,7 @@
 
 Plays a click sound whenever you press a jump button, or (optionally) a release sound whenever you release a jump button.
 If you want a new built-in click sound or feature to be added, join the [discord server](https://discord.gg/RwbRP8ADdc). <3
-Contact Syllabi-underscore if you want to add your clicks in to my db
+Contact Syllabi-underscore (by means of discord) if you want to add your clicks in to my database!
 
 ## Credit
 Thank you so much to all of the people listed below for doing whatever they did to help create the mod!
